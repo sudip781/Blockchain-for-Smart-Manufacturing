@@ -1,0 +1,15 @@
+[package]
+name = "smartmanufacturing"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule ="0x5377fdbbb982d05a5e0aa4162724c5febdee98e51c11caf913174002d29c50de"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
